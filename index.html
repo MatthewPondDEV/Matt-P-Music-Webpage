@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Matt P</title>
+        <meta name="Matt P" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/main.js" async defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kdam+Thmor+Pro&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <section id = "biggest-parent">
+        <header>
+            <div class="image-part">
+                <h2>Matt P Music</h2>
+            </div>
+            <div>
+               <!--  <nav id = "menu">
+                    <ul>
+                        <li><a href="#">Store</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Photos</a></li>
+                    </ul>
+                </nav> -->
+            </div>
+                <nav>
+                    <ul>
+                        <li><a href="" target = "_blank" title="Image from freepnglogos.com"><img alt="Facebook icon" srcset="https://img.icons8.com/ios-filled/72/facebook-new.png 2x" style="width: 50px; height: 50px; filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(53deg) brightness(200%) contrast(104%);"></a></li>
+                        <!--<li><a href=""><img srcset="https://img.icons8.com/ios-filled/344/twitter-circled--v1.png 2x" alt="icon" loading="lazy" style="width: 50px; height: 50px; filter: invert(0%) sepia(1%) saturate(7493%) hue-rotate(317deg) brightness(200%) contrast(100%);"></a></li>
+                        <li><a href=""><img srcset="https://img.icons8.com/ios-filled/344/tiktok--v1.png 2x" alt="icon" loading="lazy" style="width: 50px; height: 50px; filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(189deg) brightness(200%) contrast(106%);"></a></li>--->
+                        <li><a href="https://www.instagram.com/its_mattyp/" target = "_blank"><img srcset="https://img.icons8.com/ios-filled/344/instagram-new--v1.png 2x" alt="icon" loading="lazy" style="width: 50px; height: 50px; filter: invert(0%) sepia(4%) saturate(3%) hue-rotate(54deg) brightness(200%) contrast(100%);"></a></li>
+                        <li><a href="https://open.spotify.com/album/1NNWmMTc1qsQJdzNa412Ou" target = "_blank"><img srcset="https://img.icons8.com/ios-filled/344/spotify.png 2x" alt="icon" loading="lazy" style="width: 50px; height: 50px; filter: invert(0%) sepia(6%) saturate(9%) hue-rotate(66deg) brightness(200%) contrast(100%);"></a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <section id = "parent-section">
+            <section id = "wrapper-sect">
+                <section id="about-me">
+                    <h2><em>Hey guys,</em></h2>
+                    <p><em>I wanted to share my music and art with the world. I hope you enjoy.</em></p>
+                </section>
+                <section>
+                    <div class="player">
+                        <div class="wrapper">
+                            <div class="details">
+                                <div class="now_playing">PLAYING x OF y</div>
+                                <div class="track-art"></div>
+                                <div class="track-name">Track Name</div>
+                                <div class="track-artist">Track Artist</div>
+                            </div>
+
+                            <div class="slider_container">
+                                <div class="current-time">00:00</div>
+                                <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                                <div class="total-duration">00:00</div>
+                            </div>
+
+                            <div class="slider_container">
+                                <i class="fa fa-volume-down"></i>
+                                <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                                <i class="fa fa-volume-up"></i>
+                            </div>
+
+                            <div class="buttons">
+                                <div class="random-track" onclick="randomTrack()">
+                                    <i class="fas fa-random fa-2x" title="random"></i>
+                                </div>
+                                <div class="prev-track" onclick="prevTrack()">
+                                    <i class="fa fa-step-backward fa-2x"></i>
+                                </div>
+                                <div class="playpause-track" onclick="playpauseTrack()">
+                                    <i class="fa fa-play-circle fa-5x"></i>
+                                </div>
+                                <div class="next-track" onclick="nextTrack()">
+                                    <i class="fa fa-step-forward fa-2x"></i>
+                                </div>
+                                <div class="repeat-track" onclick="repeatTrack()">
+                                    <i class="fas fa-repeat fa-2x" title="repeat"></i>
+                                </div>
+                            </div>
+
+                        <!---  <div id="wave">
+                                <span class="stroke"></span>
+                                <span class="stroke"></span>
+                                <span class="stroke"></span>
+                                <span class="stroke"></span>
+                                <span class="stroke"></span>
+                                <span class="stroke"></span>
+                                <span class="stroke"></span> 
+                            </div> -->
+                        </div>
+                    </div>
+                
+                </section>
+            </section>
+
+        </section>
+
+        </section>
+
+
+        <section class = "bio-section">
+            <h2><b>About Me</b></h2>
+            <section id ="inner-section">
+                <section class = "bio-words">
+                    <p><br>I'm Matt. I currently live in Atlanta, GA. I love God, Jesus, family and friends. In my free time, you can find me playing basketball, coding, or spending time outdoors.</p>
+                </section>
+
+            <section id = "main-headshot"> 
+                <img src="images/LongHair.jpg" alt="Long Hair">
+            </section>
+            </section>
+        </section>
+
+        <section class = "photo-section">
+            <section>
+                <h2 id = 'photo-header'>Photos and Edits</h2>
+            </section>
+            
+            <section id = 'photos'>
+                <img src="css/cssImages/PicsArt_06-05-10.32.20.jpg" style="width: 51%;">
+                <img src="css/cssImages/PicsArt_06-05-10.35.52.jpg" style="width: 48%;">
+                <img src="css/cssImages/PicsArt_03-20-06.14.47.jpg" style="width: 33%;">
+                <img src="css/cssImages/PicsArt_05-08-10.38.04.jpg" style="width: 33%;">
+                <img src="css/cssImages/PicsArt_09-24-10.19.34.jpg" style="width: 33%;">
+                <img src="css/cssImages/PicsArt_04-17-12.23.47.jpg" style="width: 49.5%;">
+                <img src="css/cssImages/PicsArt_06-07-07.24.09.jpg" style="width: 49.5%;">
+                <img src="css/cssImages/PicsArt_03-15-08.15.16.jpg" style="width: 56.5%;">
+                <img src="css/cssImages/PicsArt_06-03-03.11.46.jpg" style="width: 42.5%;">
+                <img src="css/cssImages/PicsArt_03-12-11.47.38.jpg" style="width: 99%;">
+            </section>
+        </section>
+
+        <footer>
+            <div id="left-footer-div">
+                <h3>Contact Me</h3>
+                <h4>Email: mattypond00@gmail.com</h4>
+            </div>
+            <div id="right-footer-div">
+                <nav>
+                    <ul>
+                        <li><a href="" target = "_blank" title="Image from freepnglogos.com"><img alt="Facebook icon" srcset="https://img.icons8.com/ios-filled/72/facebook-new.png 2x" style="width: 35px; height: 35px; filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(53deg) brightness(200%) contrast(104%);"></a></li>
+                        <!--<li><a href=""><img srcset="https://img.icons8.com/ios-filled/344/twitter-circled--v1.png 2x" alt="icon" loading="lazy" style="width: 35px; height: 35px; filter: invert(0%) sepia(1%) saturate(7493%) hue-rotate(317deg) brightness(200%) contrast(100%);"></a></li>
+                        <li><a href=""><img srcset="https://img.icons8.com/ios-filled/344/tiktok--v1.png 2x" alt="icon" loading="lazy" style="width: 35px; height: 35px; filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(189deg) brightness(200%) contrast(106%);"></a></li>--->
+                        <li><a href="https://www.instagram.com/its_mattyp/" target = "_blank"><img srcset="https://img.icons8.com/ios-filled/344/instagram-new--v1.png 2x" alt="icon" loading="lazy" style="width: 35px; height: 35px; filter: invert(0%) sepia(4%) saturate(3%) hue-rotate(54deg) brightness(200%) contrast(100%);"></a></li>
+                        <li><a href="https://open.spotify.com/album/1NNWmMTc1qsQJdzNa412Ou" target = "_blank"><img srcset="https://img.icons8.com/ios-filled/344/spotify.png 2x" alt="icon" loading="lazy" style="width: 35px; height: 35px; filter: invert(0%) sepia(6%) saturate(9%) hue-rotate(66deg) brightness(200%) contrast(100%);"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+        <script src="js/main.js" async defer></script>
+    </body>
+</html>
